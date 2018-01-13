@@ -1254,19 +1254,19 @@ $daemon_desc = "{desc}";';
 								<tr>
 									<th>服务端核心名称</th>
 									<td>
-										<input id='corename' value='" . $cfgFile["corename"] . "'>
+										<input id='corename' value='" . $cfgFile["CoreName"] . "'>
 									</td>
 								</tr>
 								<tr>
 									<th>服务端最大内存</th>
 									<td>
-										<input id='jvmmaxmr' value='" . $cfgFile["jvmmaxmr"] . "'>
+										<input id='jvmmaxmr' value='" . $cfgFile["ServerMemories"] . "'>
 									</td>
 								</tr>
 								<tr>
 									<th>Java 安装路径</th>
 									<td>
-										<input id='javapath' value='" . $cfgFile["javapath"] . "'>
+										<input id='javapath' value='" . $cfgFile["JavaCommand"] . "'>
 									</td>
 								</tr>
 							</table>
